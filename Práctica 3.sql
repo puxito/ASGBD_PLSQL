@@ -144,7 +144,7 @@ DELIMITER $$
 drop event if exists ejercicio9;
 create event ejercicio9
 on schedule every 1 year
-starts '2024-01-18 00:00:00' enable
+starts '2024-01-19 00:00:00' enable
 do
 begin
     delete from premiadas where oscarsPelicula = 0;
